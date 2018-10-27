@@ -19,5 +19,7 @@ from blog import views
 
 urlpatterns = [
     url('^$', views.index),
+    url('^index$', views.index),
     url('^pp$',views.pp),
+    url('^sgz$',views.sgz)
 ]

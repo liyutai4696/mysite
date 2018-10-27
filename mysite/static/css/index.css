@@ -1,0 +1,108 @@
+@font-face {
+    font-family: sjt;
+    src:url(../font/sjt.ttf);
+}
+@font-face {
+    font-family: xc;
+    src:url(../font/xc.ttf);
+}
+@font-face {
+    font-family: hdfdg;
+    src:url(../font/hdfdg.ttf);
+}
+body{
+    background-image:url(../images/bodybackground.png);
+    background-size: 15%;
+    font-family:sjt,KaiTi;
+}
+#table{
+    background-color:#FFFFE0;
+    width:900px;
+    height:860px;
+    margin-left:auto;
+    margin-right:auto;
+    font-family:sjt;
+}
+#p1{
+    float:left;
+    background-color:skyblue;
+    height:860px;
+    width:50px;
+}
+#yxz{
+    position:relative;
+    text-align:center;
+    color:white;
+    font-size:200%;
+    height:100px;
+    width:50px;
+    top:50%;
+    margin-top:-50px;
+}
+#p2,#p3,#p4,#p5{
+
+    float:left;
+    float:right;
+    width:848px;
+    height:212.5px;
+    border-top: 2px solid skyblue;
+    border-right: 2px solid skyblue;
+}
+#p5{
+    border-bottom: 2px solid skyblue;
+}
+#szcj,#chsy,#ylxy,#yyml{
+    text-align:center;
+    font-weight:bold;
+    float:left;
+    font-size:35px;
+    width:212.5px;
+    height:212.5px;
+    border-right: 2px solid skyblue;
+}
+#szcj_w,#chsy_w,#ylxy_w,#yyml_w{
+    position:relative;
+    height:160px;
+    width:50px;
+    top:50%;
+    left:50%;
+    margin-top:-80px;
+    margin-left:-25px;
+}
+#szcj:hover,#chsy:hover,#ylxy:hover,#yyml:hover{
+    background-color:white;
+    text-shadow: 5px 5px 5px #FF0000;
+    box-shadow: 3px 3px 3px #888888;
+}
+#szcj_bz,#chsy_bz,#ylxy_bz,#yyml_bz{
+    font-family:KaiTi;
+    float:left;
+    margin-left:15px;
+    text-align:left;
+    font-size:20px;
+    width:500px;
+    height:20px;
+    letter-spacing:5px;
+}
+#fb1,#fb2,#fb3,#fb4{
+    font-family:KaiTi;
+    float:left;
+    margin-top:10px;
+    margin-left:15px;
+    text-align:left;
+    font-size:18px;
+    width:500px;
+    height:20px;
+    letter-spacing:2px;
+}
+#szcj_nr,#chsy_nr,#ylxy_nr,#yyml_nr{
+    font-family:KaiTi;
+    float:left;
+    margin-top:10px;
+    margin-left:50px;
+    text-align:left;
+    font-size:17px;
+    width:500px;
+    height:140px;
+    letter-spacing:2px;
+}

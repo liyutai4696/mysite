@@ -119,7 +119,12 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/2.1/howto/static-files/
 
 STATIC_URL = '/static/'
-STATICFILES_DIRS =(
-    os.path.join(BASE_DIR,'static'),
-    )
-
+#添加CSS和JS文件的路径，使网页加载CSS和JS
+PROJECT_PATH = os.path.abspath(os.path.dirname(__file__))
+STATIC_ROOT = os.path.join(os.path.dirname(PROJECT_PATH),'static')
+STATICFILES_DIRS = (
+    ("css",os.path.join(STATIC_ROOT,'css')),
+    ("js",os.path.join(STATIC_ROOT,'js')),
+    ('images', os.path.join(STATIC_ROOT, 'images')),
+    ('font', os.path.join(STATIC_ROOT, 'font')),
+)

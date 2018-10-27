@@ -2,11 +2,67 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>欢迎来到我的网站！</title>
+    <title>游虚子的网站</title>
+    {% load staticfiles %}
+        <link href="{% static 'css/index.css' %}" rel="stylesheet">
 </head>
 <body>
 
-<h1>HELLO<h1>
+        <div id="table">
+            <div id="p1">
+                <div id="yxz">
+                    <div id="ydx_w">游虚子</div>
+                </div>
+            </div>
+
+            <div id="p2">
+                <a href="sgz">
+                    <div id="szcj">
+                        <div id="szcj_w">手札残卷</div>
+                    </div>
+                </a>
+                <div id="fb1">最新发表</div>
+                <div id="szcj_nr">{{szcj}}</div>
+                <div id="szcj_bz">－欲说还休，却道天凉好个秋</div>
+            </div>
+
+            <div id="p3">
+                <a href="sgz">
+                    <div id="chsy">
+                        <div id="chsy_w">沧海拾遗</div>
+                    </div>
+                </a>
+                <div id="fb2">最新发表</div>
+                <div id="chsy_nr">{{chsy}}</div>
+                <div id="chsy_bz">－四书五经</div>
+            </div>
+
+            <div id="p4">
+                <a href="sgz">
+                    <div id="ylxy">
+                        <div id="ylxy_w">艺林悬苑</div>
+                    </div>
+                </a>
+                <div id="fb3">最新发表</div>
+                <div id="ylxy_nr">{{ylxy}}</div>
+                <div id="ylxy_bz">－余之拙作</div>
+            </div>
+
+            <div id="p5">
+                <a href="sgz">
+                    <div id="yyml">
+                        <div id="yyml_w">岳阳名楼</div>
+                    </div>
+                </a>
+                <div id="fb4">最新发表</div>
+                <div id="yyml_nr">{{yyml}}</div>
+                <div id="yyml_bz">－迁客骚人，多汇于此</di    v>
+            </div>
+
+
+
+
+        </div>
 </body>
 
 
