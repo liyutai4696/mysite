@@ -60,19 +60,34 @@ body{
     height:212.5px;
     border-right: 2px solid skyblue;
 }
-#szcj_w,#chsy_w,#ylxy_w,#yyml_w{
-    position:relative;
-    height:160px;
-    width:50px;
-    top:50%;
-    left:50%;
-    margin-top:-80px;
-    margin-left:-25px;
+#szcj{
+    background-image:url(../images/szcj.png);
+}
+#chsy{
+    background-image:url(../images/chsy.png);
+}
+#ylxy{
+    background-image:url(../images/ylxy.png);
+}
+#yyml{
+    background-image:url(../images/yyml.png);
 }
 #szcj:hover,#chsy:hover,#ylxy:hover,#yyml:hover{
     background-color:white;
     text-shadow: 5px 5px 5px #FF0000;
     box-shadow: 3px 3px 3px #888888;
+}
+#szcj:hover{
+    background-image:url(../images/szcj_h.png);
+}
+#chsy:hover{
+    background-image:url(../images/chsy_h.png);
+}
+#ylxy:hover{
+    background-image:url(../images/ylxy_h.png);
+}
+#yyml:hover{
+    background-image:url(../images/yyml_h.png);
 }
 #szcj_bz,#chsy_bz,#ylxy_bz,#yyml_bz{
     font-family:KaiTi;
