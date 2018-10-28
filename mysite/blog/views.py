@@ -4,6 +4,14 @@ from django.shortcuts import render
 
 
 def index(request):
+    x = request.META.get('HTTP_X_FORWARDED_FOR')
+    ip =""
+    if x:
+        ip = x.split(',')[0]
+        print("来自IP：",ip)
+    else:
+        ip = request.META.get('REMOTE_ADDR')
+        print("来自代理IP：",ip)
     c = {}
     c['szcj']="<p>博主努力ing...</p>"
     c['chsy']="博主努力ing..."
